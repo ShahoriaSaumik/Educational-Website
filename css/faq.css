@@ -1,0 +1,129 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+li{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+.container{
+    width: 1240px;
+    margin:0 auto;
+    padding:0 20px;
+}
+
+/*-------------------------Navbar start here--------------------------*/
+.navbar{
+    background-color: rgba(252, 234, 234, 0.788);
+}
+.navbar-container{
+    padding: 20px;
+    
+}
+.logo-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.logo{
+    text-transform: uppercase;
+    font-size:30px;
+    color: rgba(83, 80, 80, 0.836);
+}
+.menu-item{
+    display:flex;
+}
+.menu-item li a{
+    padding:15px;
+    margin:5px;
+    text-transform: uppercase;
+    font-weight:700;
+    color: rgb(92, 89, 89);
+    transition:0.3s all;
+}
+.menu-item li a:hover{
+    color:rgba(245, 179, 57, 0.842);
+}
+.faq-container{
+    margin-top:40px;
+    border:1px solid rgba(192, 192, 192, 0.445);
+    padding-top:20px;
+}
+.fast-faq{
+    border:2px solid silver;
+    padding-left:100px;
+    margin-left:30px;
+    padding-right:35px;
+    margin-bottom:15px;
+}
+
+.question-answer{
+    display: flex;
+    padding:10px;
+    align-items: center;
+    margin:10px;
+    margin-left:20px;
+}
+.question-answer .img{
+    margin-left:140px;
+}
+.answer p{
+    margin-left:30px;
+    font-size:14px;
+    padding-bottom:20px;
+    font-weight: 600;
+    color: rgb(94, 92, 92);
+  
+}
+.question h2{
+ color: rgb(56, 55, 55);
+}
+.second-faq{
+    border:2px solid silver;
+    padding-left:100px;
+    margin-left:30px;
+    margin-bottom:15px;
+}
+.second-faq h2{
+    padding-right:350px;
+}
+.three-faq{
+    border:2px solid silver;
+    padding-left:100px;
+    margin-left:30px;
+    margin-bottom:15px;
+}
+.three-faq h2{
+    padding-right:261px;
+}
+.four-faq{
+    border:2px solid silver;
+    padding-left:100px;
+    margin-left:30px;
+    margin-bottom:15px;
+}
+.four-faq h2{
+    padding-right:358px;
+}
+.five-faq{
+    border:2px solid silver;
+    padding-left:100px;
+    margin-left:30px;
+    margin-bottom:15px;
+}
+.five-faq h2{
+    padding-right:228px;
+}
+
+.copyright{
+    background-color: black;
+    color: silver;
+    text-align: center;
+}
+.copyright p{
+    padding:5px 0;
+}

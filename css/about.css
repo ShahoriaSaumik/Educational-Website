@@ -1,0 +1,168 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+li{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+.container{
+    width: 1240px;
+    margin:0 auto;
+    padding:0 20px;
+}
+
+/*-------------------------Navbar start here--------------------------*/
+.navbar{
+    background-color: rgba(252, 234, 234, 0.788);
+}
+.navbar-container{
+    padding: 20px;
+    
+}
+.logo-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.logo{
+    text-transform: uppercase;
+    font-size:30px;
+    color: rgba(83, 80, 80, 0.836);
+}
+.menu-item{
+    display:flex;
+}
+.menu-item li a{
+    padding:15px;
+    margin:5px;
+    text-transform: uppercase;
+    font-weight:700;
+    color: rgb(92, 89, 89);
+    transition:0.3s all;
+}
+.menu-item li a:hover{
+    color:rgba(245, 179, 57, 0.842);
+}
+/*-----------------------banner style---------------*/
+.banner{
+    background-image:url(../image/computer-with-messengers-icons-3d-banner-with-copy-space-free-vector.jpg);
+    
+}
+.banner-container{
+    font-size:38px;
+    padding-top:40px;
+}
+.banner-container h2{
+    color:rgb(53, 51, 51);
+    text-transform: uppercase;
+    padding-top:60px;
+    font-size:48px;
+    padding-bottom:200px;
+}
+.banner-container span{
+    display: block;
+    font-size:88px;
+    color: rgb(59, 58, 58);
+    text-transform: uppercase;
+    margin-top:60px;
+}
+.about h2{
+    text-align: center;
+    margin:20px 0;
+    font-size:36px;
+}
+.about span{
+    color: orangered;
+}
+.about-container{
+    display: flex;
+    margin-left:100px;
+    align-items: center;
+
+ 
+}
+.about-img{
+    width:500px;
+}
+.about-img img{
+    border-radius:3%;
+}
+.about-description{
+    width:600px;
+    padding:25px;
+    text-align: center;
+}
+.about-description h2{
+    margin:15px 0px;
+    font-size:28px;
+}
+.about-description span{
+    color: orangered;
+}
+.about-description p{
+    margin:20px 0;
+    font-size:18px;
+    line-height:36px;
+}
+.team-member{
+    width:340px;
+    border-right:4px solid rgba(175, 175, 175, 0.767);
+    border-top-right-radius: 5%;
+    border-top-left-radius:5%;
+    border-bottom:5px solid  rgba(175, 175, 175, 0.63);
+    border-left:2px  solid rgba(175, 175, 175, 0.37);
+}
+.team-members h2{
+    text-align: center;
+    margin:20px 0;
+    font-size:38px;
+}
+.team-members span{
+    color: orangered;
+}
+.team-members-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.team-member img{
+        width:300px;
+        margin:16px;
+        border-radius:3%;
+    
+    
+}
+.team-member h2{
+    margin:10px 0;
+    padding-left: 10px;
+    font-size:28px;
+    color: rgb(46, 44, 44);
+}
+.team-member h3{
+    padding-left: 10px;
+    font-size:24px;
+    color: rgb(75, 71, 71);
+    margin-bottom:5px;
+}
+.team-member p{
+    padding-left: 10px;
+    font-size:18px;
+    color: rgb(126, 124, 124);
+    padding-bottom:10px;
+
+}
+.copyright{
+    background-color: black;
+    color: silver;
+    text-align: center;
+}
+.copyright p{
+    padding:5px 0;
+}
+
+
